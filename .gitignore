@@ -1,0 +1,13 @@
+README.md
+src/
+  index.ts
+  cli.ts
+  generators/
+    api.ts
+    server.ts
+    client.ts
+  parsers/
+    openapi.ts
+  templates/
+    express-route.ts.hbs
+    vue-component.ts.hbs

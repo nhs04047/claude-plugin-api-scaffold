@@ -1,0 +1,40 @@
+{
+  "name": "claude-plugin-api-scaffold",
+  "version": "1.0.0",
+  "description": "AI-powered API scaffolding with automatic server/client code generation",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "api-scaffold": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "claude",
+    "plugin",
+    "mcp",
+    "api",
+    "scaffold",
+    "generator",
+    "openapi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
